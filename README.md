@@ -6,6 +6,9 @@
 
 ## Steps
 
+1. npm install to install all dependencies
+2. npm run dev to run the project
+
 
 #### Explore Data
 
