@@ -1,4 +1,12 @@
 const App = () => {
-  return <h2>Sidebar Starter</h2>;
+  return (
+    <>
+      <Home />
+      <Modal />
+      <Sidebar />
+    </>
+  );
 };
 export default App;
+
+// Create Structure render at app.jsx
