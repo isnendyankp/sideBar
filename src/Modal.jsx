@@ -9,4 +9,4 @@ const Modal = () => {
 export default Modal
 
 // Progress:
-// 1. Create Home component base
+// 1. Create Modal component base
