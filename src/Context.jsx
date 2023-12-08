@@ -4,6 +4,7 @@ const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+ const [isModalOpen, setIsModalOpen] = useState(false);
 
 
 
@@ -18,3 +19,4 @@ export const AppProvider = ({ children }) => {
 // 5. create return with AppContext.Provider
 // 6. pass children props to AppContext.Provider return
 // 7. Add isSidebarOpen state with useState and set default value to false
+// 8. Add isModalOpen state with useState and set default value to false
