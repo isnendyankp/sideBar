@@ -3,6 +3,10 @@ import { createContext, useState, useContext } from 'react';
 const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
+ const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+
+
  return <AppContext.Provider >{children}</AppContext.Provider>;
 };
 
@@ -13,3 +17,4 @@ export const AppProvider = ({ children }) => {
 // 4. Create AppProvider function with children props base'
 // 5. create return with AppContext.Provider
 // 6. pass children props to AppContext.Provider return
+// 7. Add isSidebarOpen state with useState and set default value to false
