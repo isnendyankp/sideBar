@@ -12,6 +12,9 @@ export const AppProvider = ({ children }) => {
  const closeSidebar = () => {
    setIsSidebarOpen(false);
  };
+ const openModal = () => {
+  
+ };
 
  return <AppContext.Provider >{children}</AppContext.Provider>;
 };
@@ -28,4 +31,5 @@ export const AppProvider = ({ children }) => {
 // 9. Add openSidebar function base
 // 10. pass setIsSidebarOpen to openSidebar function
 // 11. Add closeSidebar function base
-// 12. pass in false setIsSidebarOpen to closeSidebar function 
+// 12. pass in false setIsSidebarOpen to closeSidebar function
+// 13. Add openModal function base
