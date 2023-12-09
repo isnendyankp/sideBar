@@ -16,7 +16,7 @@ export const AppProvider = ({ children }) => {
   setIsModalOpen(true);
  };
  const closeModal = () => {
-   
+   setIsModalOpen(false);
  };
 
  return <AppContext.Provider >{children}</AppContext.Provider>;
@@ -38,3 +38,4 @@ export const AppProvider = ({ children }) => {
 // 13. Add openModal function base
 // 14. pass in true setIsModalOpen to openModal function
 // 15. Add closeModal function base
+// 16. pass in false setIsModalOpen to closeModal function
