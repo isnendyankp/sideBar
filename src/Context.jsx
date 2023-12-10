@@ -19,7 +19,16 @@ export const AppProvider = ({ children }) => {
    setIsModalOpen(false);
  };
 
- return <AppContext.Provider >{children}</AppContext.Provider>;
+ return (
+  <AppContext.Provider 
+  value={{
+    isSidebarOpen
+  
+  }}
+  >
+    {children}
+  </AppContext.Provider>;
+ );
 };
 
 // Progress:
