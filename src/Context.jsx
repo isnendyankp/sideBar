@@ -3,34 +3,36 @@ import { createContext, useState, useContext } from 'react';
 const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
- const [isSidebarOpen, setIsSidebarOpen] = useState(false);
- const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
- const openSidebar = () => {
+  const openSidebar = () => {
     setIsSidebarOpen(true);
- };
- const closeSidebar = () => {
-   setIsSidebarOpen(false);
- };
- const openModal = () => {
-  setIsModalOpen(true);
- };
- const closeModal = () => {
-   setIsModalOpen(false);
- };
+  };
+  const closeSidebar = () => {
+    setIsSidebarOpen(false);
+  };
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
 
- return (
-  <AppContext.Provider 
-  value={{
-    isSidebarOpen,
-    isModalOpen,
-    openSidebar,
-    closeSidebar
-  }}
-  >
-    {children}
-  </AppContext.Provider>;
- );
+  return (
+    <AppContext.Provider
+      value={{
+        isSidebarOpen,
+        isModalOpen,
+        openModal,
+        openSidebar,
+        closeModal,
+        closeSidebar,
+      }}
+    >
+      {children}
+    </AppContext.Provider>
+  );
 };
 
 // Progress:
@@ -50,3 +52,4 @@ export const AppProvider = ({ children }) => {
 // 14. pass in true setIsModalOpen to openModal function
 // 15. Add closeModal function base
 // 16. pass in false setIsModalOpen to closeModal function
+// 17. Add value prop to AppContext.Provider and pass in all states and functions to value prop as object value pair with key and value as same name (isSidebarOpen, isModalOpen, openModal, openSidebar, closeModal, closeSidebar) and pass in children props to AppContext.
