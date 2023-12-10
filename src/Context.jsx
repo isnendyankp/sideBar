@@ -36,7 +36,7 @@ export const AppProvider = ({ children }) => {
 };
 
 export const useGlobalContext = () => {
-  
+  return useContext(AppContext);
 };
 
 // Progress:
@@ -58,3 +58,4 @@ export const useGlobalContext = () => {
 // 16. pass in false setIsModalOpen to closeModal function
 // 17. Add value prop to AppContext.Provider and pass in all states and functions to value prop as object value pair with key and value as same name (isSidebarOpen, isModalOpen, openModal, openSidebar, closeModal, closeSidebar) and pass in children props to AppContext.
 // 18. Create useGlobalContext function base.
+// 19. Add return useContext with AppContext as argument.
