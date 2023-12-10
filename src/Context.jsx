@@ -35,6 +35,10 @@ export const AppProvider = ({ children }) => {
   );
 };
 
+export const useGlobalContext = () => {
+  
+};
+
 // Progress:
 // 1. Create Context
 // 2. import createContext, useState, useContext from react
@@ -53,3 +57,4 @@ export const AppProvider = ({ children }) => {
 // 15. Add closeModal function base
 // 16. pass in false setIsModalOpen to closeModal function
 // 17. Add value prop to AppContext.Provider and pass in all states and functions to value prop as object value pair with key and value as same name (isSidebarOpen, isModalOpen, openModal, openSidebar, closeModal, closeSidebar) and pass in children props to AppContext.
+// 18. Create useGlobalContext function base.
