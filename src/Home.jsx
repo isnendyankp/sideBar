@@ -6,7 +6,7 @@ const Home = () => {
 
   return (
     <main>
-      <button>
+      <button onClick={openSidebar}>
 
       </button>
     </main>
@@ -21,3 +21,4 @@ export default Home;
 // 3. import useGlobalContext from context.js
 // 4. import FaBars from react-icons/fa
 // 5. create main & button base structure @return
+// 6. create onClick event on button and pass in openSidebar function
