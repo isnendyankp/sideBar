@@ -6,7 +6,7 @@ const Home = () => {
 
   return (
     <main>
-      <button onClick={openSidebar}>
+      <button onClick={openSidebar} className='sidebar-toggle'>
 
       </button>
     </main>
@@ -22,3 +22,4 @@ export default Home;
 // 4. import FaBars from react-icons/fa
 // 5. create main & button base structure @return
 // 6. create onClick event on button and pass in openSidebar function
+// 7. Add className sidebar-toggle on button
