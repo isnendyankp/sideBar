@@ -265,3 +265,10 @@ main {
   align-items: center;
   background: var(--grey-100);
 }
+
+.sidebar-toggle {
+  position: fixed;
+  top: 2rem;
+  left: 3rem;
+  
+}
