@@ -263,4 +263,5 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: var(--grey-100);
 }
