@@ -9,7 +9,7 @@ const Home = () => {
       <button onClick={openSidebar} className='sidebar-toggle'>
         <FaBars />
       </button>
-      <button>
+      <button onClick={openModal}>
         show modal
       </button>
     </main>
@@ -28,3 +28,4 @@ export default Home;
 // 7. Add className sidebar-toggle on button
 // 8. pass in FaBars icon on button
 // 9. create second button show modal
+// 10. add onClick event on 2nd button and pass in openModal function
