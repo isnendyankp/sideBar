@@ -274,4 +274,6 @@ main {
   background: transparent;
   border-color: transparent;
   color: var(--primary-500);
+  cursor: pointer;
+  animation: bounce 2s ease-in-out infinite;
 }
