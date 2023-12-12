@@ -272,4 +272,6 @@ main {
   left: 3rem;
   font-size: 2rem;
   background: transparent;
+  border-color: transparent;
+  color: var(--primary-500);
 }
