@@ -270,5 +270,6 @@ main {
   position: fixed;
   top: 2rem;
   left: 3rem;
-  
+  font-size: 2rem;
+  background: transparent;
 }
