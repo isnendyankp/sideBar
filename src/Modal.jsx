@@ -5,7 +5,9 @@ const Modal = () => {
   const { isModalOpen, closeModal } = useGlobalContext();
   return (
     <div className='modal-overlay'>
+      <div className='modal-container'>
 
+      </div>
     </div>
   );
 };
@@ -18,3 +20,4 @@ export default Modal;
 // 3. Import useGlobalContext
 // 4. call useGlobalContext function and pass in destructured values of isModalOpen & closeModal
 // 5. add div with className of modal-overlay @return
+// 6. add div with className of modal-container @return>div modal-overlay
