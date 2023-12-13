@@ -3,7 +3,11 @@ import { useGlobalContext } from './context';
 
 const Modal = () => {
   const { isModalOpen, closeModal } = useGlobalContext();
-  return <div>Modal</div>;
+  return (
+    <div className='modal-overlay'>
+
+    </div>
+  );
 };
 
 export default Modal;
@@ -13,3 +17,4 @@ export default Modal;
 // 2. Import FaTimes icon
 // 3. Import useGlobalContext
 // 4. call useGlobalContext function and pass in destructured values of isModalOpen & closeModal
+// 5. add div with className of modal-overlay @return
