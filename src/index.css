@@ -277,3 +277,15 @@ main {
   cursor: pointer;
   animation: bounce 2s ease-in-out infinite;
 }
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
