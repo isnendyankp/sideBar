@@ -7,7 +7,7 @@ const Modal = () => {
     <div className='modal-overlay'>
       <div className='modal-container'>
         <h3>modal content</h3>
-        <button>
+        <button className='close-modal-btn'>
 
         </button>
       </div>
@@ -26,3 +26,4 @@ export default Modal;
 // 6. add div with className of modal-container @return>div modal-overlay
 // 7. add h3 with text of modal content @return>div modal-overlay>div modal-container
 // 8. add button @return>div modal-overlay>div modal-container
+// 9. add button className of close-modal-btn @return>div modal-overlay>div modal-container>button
