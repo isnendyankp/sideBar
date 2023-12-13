@@ -6,7 +6,7 @@ const Modal = () => {
   return (
     <div className='modal-overlay'>
       <div className='modal-container'>
-
+        <h3>modal content</h3>
       </div>
     </div>
   );
@@ -21,3 +21,4 @@ export default Modal;
 // 4. call useGlobalContext function and pass in destructured values of isModalOpen & closeModal
 // 5. add div with className of modal-overlay @return
 // 6. add div with className of modal-container @return>div modal-overlay
+// 7. add h3 with text of modal content @return>div modal-overlay>div modal-container
