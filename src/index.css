@@ -306,3 +306,8 @@ Modal
   display: grid;
   place-items: center;
 }
+
+.modal-container {
+  background: var(--white);
+  
+}
