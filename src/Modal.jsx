@@ -8,7 +8,7 @@ const Modal = () => {
       <div className='modal-container'>
         <h3>modal content</h3>
         <button className='close-modal-btn' onClick={closeModal}>
-
+          <FaTimes />
         </button>
       </div>
     </div>
@@ -28,3 +28,4 @@ export default Modal;
 // 8. add button @return>div modal-overlay>div modal-container
 // 9. add button className of close-modal-btn @return>div modal-overlay>div modal-container>button
 // 10. add onClick event to button and pass in closeModal function
+// 11. add FaTimes component to button
