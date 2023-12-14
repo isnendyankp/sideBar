@@ -309,5 +309,6 @@ Modal
 
 .modal-container {
   background: var(--white);
-  
+  width: 90vw;
+  height: 30vh;
 }
