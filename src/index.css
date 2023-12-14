@@ -311,4 +311,5 @@ Modal
   background: var(--white);
   width: 90vw;
   height: 30vh;
+  border-radius: var(--borderRadius);
 }
