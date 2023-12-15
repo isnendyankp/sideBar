@@ -312,4 +312,5 @@ Modal
   width: 90vw;
   height: 30vh;
   border-radius: var(--borderRadius);
+  text-align: center;
 }
