@@ -323,4 +323,6 @@ Modal
   top: 1rem;
   right: 1rem;
   font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
 }
