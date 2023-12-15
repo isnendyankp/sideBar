@@ -313,4 +313,6 @@ Modal
   height: 30vh;
   border-radius: var(--borderRadius);
   text-align: center;
+  display: grid;
+  
 }
