@@ -312,6 +312,7 @@ Modal
 
 .show-modal {
   opacity: 1;
+  visibility: visible;
 }
 
 .modal-container {
