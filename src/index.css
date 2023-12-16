@@ -310,6 +310,10 @@ Modal
   opacity: 0;
 }
 
+.show-modal {
+  opacity: 1;
+}
+
 .modal-container {
   background: var(--white);
   width: 90vw;
