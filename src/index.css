@@ -323,6 +323,7 @@ Modal
   width: 90vw;
   height: 30vh;
   border-radius: var(--borderRadius);
+  max-width: var(--fixed-width);
   text-align: center;
   display: grid;
   place-items: center;
