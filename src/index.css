@@ -314,7 +314,8 @@ Modal
   opacity: 1;
   visibility: visible;
   z-index: 10;
-  transition: opacity;;
+  transition: opacity;
+  transition: 2s;
 }
 
 .modal-container {
