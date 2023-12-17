@@ -313,6 +313,7 @@ Modal
 .show-modal {
   opacity: 1;
   visibility: visible;
+  z-index: 10;
 }
 
 .modal-container {
