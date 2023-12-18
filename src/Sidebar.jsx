@@ -5,7 +5,11 @@ import { useGlobalContext } from './context';
 
 const Sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useGlobalContext();
-  return <div>Sidebar</div>;
+  return (
+    <aside className='sidebar'>
+
+    </aside>
+  );
 };
 
 export default Sidebar;
@@ -17,3 +21,4 @@ export default Sidebar;
 // 4. Import FaTimes icon
 // 5. call useGlobalContext function and pass in destructured values of isSidebarOpen & closeSidebar
 // 6. import useGlobalContext
+// 7. add aside element with className of sidebar @return
