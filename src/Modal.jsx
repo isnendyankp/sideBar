@@ -4,10 +4,10 @@ import { useGlobalContext } from './context';
 const Modal = () => {
   const { isModalOpen, closeModal } = useGlobalContext();
   return (
-    <div className='modal-overlay'>
-      <div className='modal-container'>
+    <div className={isModalOpen ? 'modal-overlay show-modal' : 'modal-overlay'}>
+      <div className="modal-container">
         <h3>modal content</h3>
-        <button className='close-modal-btn' onClick={closeModal}>
+        <button className="close-modal-btn" onClick={closeModal}>
           <FaTimes />
         </button>
       </div>
@@ -29,3 +29,4 @@ export default Modal;
 // 9. add button className of close-modal-btn @return>div modal-overlay>div modal-container>button
 // 10. add onClick event to button and pass in closeModal function
 // 11. add FaTimes component to button
+// 12. add ternary operator to div modal-overlay className to show-modal if isModalOpen is true or modal-overlay if isModalOpen is false
