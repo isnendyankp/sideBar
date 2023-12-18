@@ -8,7 +8,7 @@ const Sidebar = () => {
   return (
     <aside className='sidebar'>
       <div className='sidebar-header'>
-
+        <img src={logo} />
       </div>
     </aside>
   );
@@ -25,3 +25,4 @@ export default Sidebar;
 // 6. import useGlobalContext
 // 7. add aside element with className of sidebar @return
 // 8. add div element with className of sidebar-header @return>aside
+// 9. add img element with src of logo @return>aside>div
