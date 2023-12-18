@@ -7,7 +7,9 @@ const Sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useGlobalContext();
   return (
     <aside className='sidebar'>
+      <div className='sidebar-header'>
 
+      </div>
     </aside>
   );
 };
@@ -22,3 +24,4 @@ export default Sidebar;
 // 5. call useGlobalContext function and pass in destructured values of isSidebarOpen & closeSidebar
 // 6. import useGlobalContext
 // 7. add aside element with className of sidebar @return
+// 8. add div element with className of sidebar-header @return>aside
