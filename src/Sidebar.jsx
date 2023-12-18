@@ -8,7 +8,7 @@ const Sidebar = () => {
   return (
     <aside className='sidebar'>
       <div className='sidebar-header'>
-        <img src={logo} />
+        <img src={logo} alt='coding addict'/>
       </div>
     </aside>
   );
@@ -26,3 +26,4 @@ export default Sidebar;
 // 7. add aside element with className of sidebar @return
 // 8. add div element with className of sidebar-header @return>aside
 // 9. add img element with src of logo @return>aside>div
+// 10. add alt coding addict attribute to img element @return>aside>div>img
