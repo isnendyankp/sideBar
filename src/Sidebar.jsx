@@ -15,7 +15,9 @@ const Sidebar = () => {
       </div>
       <ul className='links'>
         {links.map((links) => {
+          const { id, url, text, icon } = links;
           return (
+            
             <li>
 
             </li>
@@ -47,3 +49,4 @@ export default Sidebar;
 // 16. add base links.map() method @return>aside>ul
 // 17. pass in links as parameter to links.map() method @return>aside>ul
 // 18. add return with li element @return>aside>ul>links
+// 19. call links & destructure id, url, text, icon from links @return>aside>ul>links>li
