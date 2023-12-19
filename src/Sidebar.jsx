@@ -14,7 +14,9 @@ const Sidebar = () => {
         </button>
       </div>
       <ul className='links'>
+        {links.map(() => {
 
+        })}
       </ul>
     </aside>
   );
@@ -38,3 +40,4 @@ export default Sidebar;
 // 13. pass in FaTimes in button element @return>aside>div>button
 // 14. add onClick event to button element and pass in closeSidebar function @return>aside>div>button
 // 15. add ul element with className of links @return>aside
+// 16. add base links.map() method @return>aside>ul
