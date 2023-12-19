@@ -15,7 +15,11 @@ const Sidebar = () => {
       </div>
       <ul className='links'>
         {links.map((links) => {
+          return (
+            <li>
 
+            </li>
+          );
         })}
       </ul>
     </aside>
@@ -42,3 +46,4 @@ export default Sidebar;
 // 15. add ul element with className of links @return>aside
 // 16. add base links.map() method @return>aside>ul
 // 17. pass in links as parameter to links.map() method @return>aside>ul
+// 18. add return with li element @return>aside>ul>links
