@@ -13,6 +13,9 @@ const Sidebar = () => {
           <FaTimes />
         </button>
       </div>
+      <ul className='links'>
+
+      </ul>
     </aside>
   );
 };
@@ -34,3 +37,4 @@ export default Sidebar;
 // 12. add button element with className of close-btn @return>aside>div
 // 13. pass in FaTimes in button element @return>aside>div>button
 // 14. add onClick event to button element and pass in closeSidebar function @return>aside>div>button
+// 15. add ul element with className of links @return>aside
