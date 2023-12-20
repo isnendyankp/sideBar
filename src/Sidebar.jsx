@@ -19,7 +19,7 @@ const Sidebar = () => {
           return (
             <li key={id}>
               <a href={url}>
-
+                {icon}
               </a>
             </li>
           );
@@ -53,3 +53,4 @@ export default Sidebar;
 // 19. call links & destructure id, url, text, icon from links @return>aside>ul>links>li
 // 20. add key attribute to li element and pass in id @return>aside>ul>links>li
 // 21. add a element to li element with pass in url @return>aside>ul>links>li
+// 22. pass in icon to a element @return>aside>ul>links>li>a
