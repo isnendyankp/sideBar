@@ -20,6 +20,7 @@ const Sidebar = () => {
             <li key={id}>
               <a href={url}>
                 {icon}
+                {text}
               </a>
             </li>
           );
@@ -54,3 +55,5 @@ export default Sidebar;
 // 20. add key attribute to li element and pass in id @return>aside>ul>links>li
 // 21. add a element to li element with pass in url @return>aside>ul>links>li
 // 22. pass in icon to a element @return>aside>ul>links>li>a
+// 23. pass in text to a element @return>aside>ul>links>li>a
+
