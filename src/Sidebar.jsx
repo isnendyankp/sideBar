@@ -6,14 +6,14 @@ import { useGlobalContext } from './context';
 const Sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useGlobalContext();
   return (
-    <aside className='sidebar'>
-      <div className='sidebar-header'>
-        <img src={logo} alt='coding addict' className='logo'/>
-        <button className='close-btn' onClick={closeSidebar}>
+    <aside className="sidebar">
+      <div className="sidebar-header">
+        <img src={logo} alt="coding addict" className="logo" />
+        <button className="close-btn" onClick={closeSidebar}>
           <FaTimes />
         </button>
       </div>
-      <ul className='links'>
+      <ul className="links">
         {links.map((links) => {
           const { id, url, text, icon } = links;
           return (
@@ -22,6 +22,16 @@ const Sidebar = () => {
                 {icon}
                 {text}
               </a>
+            </li>
+          );
+        })}
+      </ul>
+      <ul className="social-links">
+        {social.map((link) => {
+          const { id, url, icon } = link;
+          return (
+            <li key={id}>
+              <a href={url}>{icon}</a>
             </li>
           );
         })}
@@ -56,4 +66,5 @@ export default Sidebar;
 // 21. add a element to li element with pass in url @return>aside>ul>links>li
 // 22. pass in icon to a element @return>aside>ul>links>li>a
 // 23. pass in text to a element @return>aside>ul>links>li>a
+// 24. add ul element with className of social-links @return>aside
 
