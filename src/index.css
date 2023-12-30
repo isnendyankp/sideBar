@@ -340,3 +340,15 @@ Modal
   cursor: pointer;
   color: var(--red-dark);
 }
+
+/*
+=============== 
+Sidebar
+===============
+*/
+
+
+.sidebar {
+  position: fixed;
+  
+}
