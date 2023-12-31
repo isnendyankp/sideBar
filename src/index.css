@@ -359,4 +359,5 @@ Sidebar
   grid-template-rows: auto 1fr auto;
   row-gap: 1rem;
   box-shadow: var(--red-dark);
+  transition: var(--transition);
 }
