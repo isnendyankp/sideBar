@@ -67,4 +67,3 @@ export default Sidebar;
 // 22. pass in icon to a element @return>aside>ul>links>li>a
 // 23. pass in text to a element @return>aside>ul>links>li>a
 // 24. add ul element with className of social-links @return>aside
-
