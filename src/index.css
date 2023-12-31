@@ -360,4 +360,6 @@ Sidebar
   row-gap: 1rem;
   box-shadow: var(--red-dark);
   transition: var(--transition);
+  /* toggle logic */
+  transform: translateX(-100%);
 }
