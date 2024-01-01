@@ -384,5 +384,6 @@ Sidebar
 
 .close-btn {
   font-size: 1.75rem;
-  
+  background: transparent;
+  border-color: transparent;
 }
