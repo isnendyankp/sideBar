@@ -381,3 +381,8 @@ Sidebar
 .logo {
   height: 40px;
 }
+
+.close-btn {
+  font-size: 1.75rem;
+  
+}
