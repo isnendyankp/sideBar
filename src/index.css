@@ -396,4 +396,5 @@ Sidebar
   font-size: 1.25rem;
   text-transform: capitalize;
   padding: 1rem 1.5rem;
+  color: var(--grey-700);
 }
