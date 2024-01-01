@@ -386,4 +386,6 @@ Sidebar
   font-size: 1.75rem;
   background: transparent;
   border-color: transparent;
+  color: var(--red-dark);
+  cursor: pointer;
 }
