@@ -389,3 +389,8 @@ Sidebar
   color: var(--red-dark);
   cursor: pointer;
 }
+
+.link a {
+  display: flex;
+  align-items: center;
+}
