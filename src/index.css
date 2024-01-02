@@ -413,3 +413,7 @@ Sidebar
 .links a svg:hover {
   color: var(--grey-600);
 }
+.social-links {
+  display: flex;
+ 
+}
