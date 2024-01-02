@@ -404,3 +404,7 @@ Sidebar
   background: var(--grey-100);
   color: var(--grey-800);
 }
+.links a svg {
+  font-size: 1.5rem;
+  
+}
