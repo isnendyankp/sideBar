@@ -400,3 +400,7 @@ Sidebar
   transition: var(--transition);
   letter-spacing: var(--letterSpacing);
 }
+.links a:hover {
+  background: var(--grey-100);
+  
+}
