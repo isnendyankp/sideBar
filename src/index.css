@@ -406,5 +406,5 @@ Sidebar
 }
 .links a svg {
   font-size: 1.5rem;
-  
+  color: var(--grey-500);
 }
