@@ -410,3 +410,6 @@ Sidebar
   margin-right: 1rem;
   transition: var(--transition);
 }
+.links a svg:hover {
+  color: var(--grey-600);
+}
