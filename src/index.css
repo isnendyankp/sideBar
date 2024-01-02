@@ -397,5 +397,6 @@ Sidebar
   text-transform: capitalize;
   padding: 1rem 1.5rem;
   color: var(--grey-700);
+  transition: var(--transition);
   letter-spacing: var(--letterSpacing);
 }
