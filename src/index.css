@@ -415,5 +415,6 @@ Sidebar
 }
 .social-links {
   display: flex;
- 
+  justify-self: center;
+  padding-bottom: 2rem;
 }
