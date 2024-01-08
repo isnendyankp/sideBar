@@ -421,5 +421,6 @@ Sidebar
 .social-links a {
   font-size: 1.5rem;
   margin: 0 0.5rem;
-  
+  color: var(--primary-500);
+  transition: var(--transition);
 }
