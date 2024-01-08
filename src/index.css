@@ -424,3 +424,6 @@ Sidebar
   color: var(--primary-500);
   transition: var(--transition);
 }
+.social-links a:hover {
+  color: var(--primary-800);
+}
